@@ -4,7 +4,7 @@
 
 [![Build Status](https://travis-ci.org/dashpay/sentinel.svg?branch=master)](https://travis-ci.org/dashpay/sentinel)
 
-> An automated governance helper for amero Masternodes.
+> An automated governance helper for Amero Masternodes.
 
 Sentinel is an autonomous agent for persisting, processing and automating amero governance objects and tasks. It is a Python application which runs alongside the AmeroCore instance on each amero Masternode.
 
@@ -35,7 +35,7 @@ Make sure Python version 3.6.x or above is installed:
 
 Make sure the local AmerocCore daemon running is at least version 0.15.0.
 
-    $ amerod --version | head -n1
+    $ dashd --version | head -n1
 
 ### Install Sentinel
 
@@ -65,7 +65,7 @@ Test the config by running tests:
 
     $ ./venv/bin/py.test ./test
 
-With all tests passing and crontab setup, Sentinel will stay in sync with amerod and the installation is complete
+With all tests passing and crontab setup, Sentinel will stay in sync with dash and the installation is complete
 
 ## Configuration
 
